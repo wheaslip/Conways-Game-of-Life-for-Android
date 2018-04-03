@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_toroidal"
+        android:summary="@string/toroidal_summary"
+        android:title="@string/toroidal_world" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_next_gen"
+        android:summary="@string/next_gen_summary"
+        android:title="@string/next_gen_visible"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_mark_for_death"
+        android:summary="@string/mark_for_death_summary"
+        android:title="@string/mark_cells_for_death"/>
+    <MultiSelectListPreference
+        android:defaultValue="@array/pref_creation_rules_defaults"
+        android:entries="@array/pref_creation_rules_options"
+        android:entryValues="@array/pref_creation_rules_values"
+        android:key="prefs_creation_rules"
+        android:summary="@string/creation_summary"
+        android:title="@string/creation_rules" />
+    <MultiSelectListPreference
+        android:defaultValue="@array/pref_survival_rules_defaults"
+        android:entries="@array/pref_survival_rules_options"
+        android:entryValues="@array/pref_survival_rules_values"
+        android:key="prefs_survival_rules"
+        android:title="@string/survivalRules"
+        android:summary="@string/survival_summary"/>
+</PreferenceScreen>

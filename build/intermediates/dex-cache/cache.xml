@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/wesley/AndroidStudioProjects/Game of Life/game-of-life/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="de5406c1c4acb3c701d35127df2df4607c29770b">
+        <dex dex="/home/wesley/AndroidStudioProjects/Game of Life/game-of-life/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_439ffb49bba3b7c463841a5ec81e1edd3d8a9725/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/wesley/AndroidStudioProjects/Game of Life/game-of-life/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/wesley/AndroidStudioProjects/Game of Life/game-of-life/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e021a0cbc1bd47264459bd5e827e5ae1e25f9622/classes.dex" />
+    </item>
+
+</items>

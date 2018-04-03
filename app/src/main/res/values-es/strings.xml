@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="speed">Velocidad: </string>
+    <string name="delete">BORRAR</string>
+    <string name="app_name">Juego de la Vida</string>
+    <string name="size">Tamaño</string>
+    <string name="generations">Generaciones:</string>
+    <string name="about">Sobre el Juego de la Vida</string>
+    <string name="load">Cargar</string>
+    <string name="settings">Ajustes</string>
+    <string name="genpersec">gen/seg</string>
+    <string name="survivalRules">Reglas de Supervivencia</string>
+    <string name="toroidal_world">Mundo Toroidal (cc Infinito)</string>
+    <string name="next_gen_visible">Próxima Generación Visible</string>
+    <string name="mark_cells_for_death">Marcar células que van a morir en la próxima generación</string>
+    <string name="creation_rules">Reglas de Creación</string>
+    <string name="title_activity_about_game_of_life">Sobre El Juego de la Vida</string>
+    <string name="doyouevencode">¿Usted programa?</string>
+    <string name="aboutthisapp">Sobre este app</string>
+    <string name="title_activity_preferences">Ajustes</string>
+    <string name="title_activity_saved_state_list">Cargar Juego</string>
+    <string name="title_activity_do_you_code">¡Es de fuente abierta!</string>
+    <string name="attribution">Atribución</string>
+    <string name="title_activitiy_about_this_app">Sobre este App</string>
+    <string name="title_activity_attribution">Atribuciones</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="save_title">How shalteth I calleth thee patternst?"</string>
+    <string name="save_title_hint">(Escoja un nombre para salvarlo)</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+
+
+    <string name="toroidal_summary">Hace que el mundo sea infinito (mas o menos). Células en el borde derecho seran vecinos de células en el borde izquierdo. Lo mismo ocurre con los bordes arriba y abajo.</string>
+    <string name="next_gen_summary">Hace que células que nacerán en la próxima generación esten visibles en el presente.</string>
+    <string name="mark_for_death_summary">Células que no sobrevivirán a la próxima generación estarán marcadas con un X negro.</string>
+    <string name="creation_summary">Número de vecinos que un espacio vacio requiere para que una nueva célula nace en la próxima generación.</string>
+    <string name="survival_summary">Número de vecinos una célula viviente necesita tener para sobrevivir a la proxima generación.</string>
+
+    <string name="game_of_life_explanation">El juego de la vida es un autómata celular creado por el matemático británico John Conway en 1970.
+        En realidad no es un juego sino una simulación de la vida celular usando unas simples reglas matemáticas.
+        Las células viven, reproducen y mueren según unas simples reglas matemáticas.. algo así como los humanos.\n\n
+
+Las Reglas:\n
+ - Con las reglas originales, si una célula tiene 2 o 3 vecinos puede sobrevivir a la próxima generación y si no, la muerte espera.\n
+        "  (Si tiene menos de 2 vecinos muere por soledad y si tiene mas de 3 muere por superpoblación.)"\n
+ - Si un espacio vacío tiene exactamente 3 vecinos entonces en la próxima generación una nueva célula bebe nacerá.\n\n
+
+Eso es todo, 2 simples reglas y un mundo de complejidad. Ha sido estudiado mucho desde entonces y se ha hecho popular entre los matemáticos,
+        científicos y nerds como yo. También es popular como tarea en las clases de programación, lo cual es buenas noticias para algunos
+        porque este app es de código abierto. (Que no haga trampa! Va a generar mal karma!)\n\n
+
+Mucha gente experimentan cambiando las reglas para ver que pasa. Aquí también puede experimentar. Hay opciones en Ajustes para cambiar el número
+        de células que es necesario para que una célula nace o sobrevive.\n\n
+
+¿Quiere saber mas? Vea el wiki <a href="https://es.wikipedia.org/wiki/Juego_de_la_vida">aquí.</a>\n\n</string>
+
+    <string name="do_you_code_text">¿Le guste o le mole el app pero cree que le hace falta algo?\n
+        ¿Quiere mejorar la interfaz gráfica o agregar una función que no tenga?\n
+        O solo quiere ver el código fuente para reirse un rato?\n\n
+
+        Esta completamente de código abierto entonces si le gusta meterse en el código para hacer desastre..  digo para mejorarlo,
+        esta bienvenido. La página de GitHub esta <a href="https://github.com/heslihop/game-of-life---Android">aquí.</a>\n\n
+
+        El app esta en sus etapas principales todavía pero siempre va a ser gratis y sin anuncios. Es el primer que hice y lo hice
+        mas que todo para diversión y para aprender. Agradezco comentarios y crítica constructiva.\n\n
+
+    Cheers!\n\n</string>
+
+    <string name="attribution_text">Solo una de las fotos requiere atribución - la huella microbial.
+        Esa foto esta reproducido aquí con permiso de: Tasha Sturm© @ Cabrillo College.\n
+        \"La huella bacteriana de un niño de 8 años después de estar afuera. Principalmente flora normal y bacteria ambiental,
+        la mayoría de lo cual no es dañino para una persona sana.\"\n\n
+
+    Las otras fotos de fondo no requieren atribución y fueron tomadas de pixabay.com y unsplash.com. Los dos sitios
+        son buenas fuentes para fotos libres de derechos, proporcionado por sus usuarios.\n\n
+
+    Como este proyecto es de código abierto, atribuciónes para contribuciones futuros de desarrolladores vendrán aquí.\n\n</string>
+
+    <string name="about_this_app_text">
+
+        Este app fue creado inicialmente por una persona y después se hizo de código abierto para que todos pueden agregar las
+        mejoras que quieren ver. Es mi primer app y lo hice para aprender. Muchos crean El Juego de la Vida cuando están aprendiendo
+        a programar y este es mi version.\n\n
+
+        Si nunca ha eschucado antes del Juego de la Vida véase la sección "Sobre el Juego de la Vida" en el menu principal.
+    Para contestar preguntas específicamente sobre este app he creado este FAQ:\n\n
+
+    Q. ¿Qué hacen todos los butones?\n
+    A. Debería ser fácil averiguarlos todos. El único que no es tan obvio es el de "rehacer". Ese vuelve a cargar el tablero desde
+        el punto que fue aleatorizado o la última vez que un archivo de guardado fue cargado -
+        lo que sucedió mas recientemente.\n\n
+
+    Q. ¿Porque deja que las células pasan por encima del GUI (interfaz gráfica de usuario)? Me esta volviendo loco por el
+        TOC (OCD).\n
+    A. Esto es una metáfora para la vida, en especial la vida bacteriana. Los microorganismos van por encima de todo.
+        La vida va encima de todo. No es fácilmente restringido o encerrado. Se desborda.\n\n
+
+    Q. ¿Por qué usó imágenes personalizados para dos de los butones, pero dejó todo lo demas con imágenes estandares?
+        Parece desordenado, como que se rindió poco después de haber empezado.\n
+    A. Al ojo del novato eso es exactamente lo que podria parecer. Alguien viendome programar podría llegar a la misma conclusión
+        también. En realidad, los dos butones que llevan imágenes especiales no tienen imágenes estándares, y por eso entonces fui
+        obligado a crear mis propios. También pensé que el estilo caótico crea otra metáfora para la vida.\n\n
+
+    Q. ¿Por qué no hay instrucciones claras sobre como funciona el juego? Usted tira al jugador a lo salvaje y si logra encontrar
+        el menu principal ni siquiera hay una opción para instrucciones.\n
+    A. La vida no tiene instrucciones. Nos tiran al mundo y tenemos que averiguar todo por nosotros mismos. Dado que somos criaturas
+        que evolucionaron en ambientes parecidos durante milliones de años, espero que ya viene con las habilidades necesarias
+        para resolver como funciona este app.\n\n
+
+    Q. En esa última respuesta mencionó la evolución. Eso es altamente ofensivo para los de nosotros que no creen en la evolución.
+        ¿Cómo se atreve?\n
+    A. Si usted fuera fabricado durante milliones de años por la evolución, o creado en un instante por un acto de divinidad, debería
+        estar con todo lo necesario para entender al app sin instrucciones. Nadie tiene por que irse ofendido hoy.\n\n
+
+    Q. ¿Usted esta hablando puras tonterias solo porque ya no se le ocurren preguntas para preguntarse y después contestar?\n
+    A. Indudablemente.\n\n
+
+    Q. No contestaron mi pregunta. ¿Qué hago ahora?\n
+    A. Vaya a Github (Véase \'¿Usted Programa?\') y agrega su pregunta, junto con la respuesta.\n\n
+    </string>
+
+
+    <string-array name="pref_creation_rules_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_creation_rules_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_creation_rules_defaults">
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_survival_rules_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_survival_rules_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_survival_rules_defaults">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

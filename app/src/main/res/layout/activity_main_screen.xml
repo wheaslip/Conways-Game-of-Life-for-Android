@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.heslihop.wesley.gameoflife.MainMenu">
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/aboutGameOfLife"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:onClick="aboutGameOfLife"
+        android:text="@string/about"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"
+        app:layout_constraintBottom_toTopOf="@+id/aboutThisApp" />
+
+    <Button
+        android:id="@+id/aboutThisApp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutthisapp"
+        android:onClick="aboutThisApp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/aboutGameOfLife"
+        app:layout_constraintBottom_toTopOf="@+id/loadSave"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        app:layout_constraintRight_toLeftOf="@+id/guideline" />
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/loadSave"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/load"
+        android:onClick="loadButton"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/aboutThisApp"
+        app:layout_constraintBottom_toTopOf="@+id/settingsButton"
+        app:layout_constraintRight_toLeftOf="@+id/guideline" />
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/settingsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:onClick="settings"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/loadSave"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/guideline" />
+
+    <Button
+        android:id="@+id/doYouEvenCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/doyouevencode"
+        android:onClick="doYouEvenCode"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/settingsButton"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"/>
+
+    <Button
+        android:id="@+id/attribution"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/attribution"
+        android:onClick="attribution"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/doYouEvenCode"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline2"
+        app:layout_constraintRight_toLeftOf="@+id/guideline"/>
+
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_percent="0.85"
+        app:layout_constraintGuide_begin="79dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        app:layout_constraintGuide_percent="0.15"
+        app:layout_constraintGuide_begin="297dp"
+        android:orientation="vertical" />
+
+
+
+</android.support.constraint.ConstraintLayout>

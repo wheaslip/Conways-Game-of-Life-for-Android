@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Game of Life</string>
+    <string name="speed">Speed: </string>
+    <string name="delete">DELETE</string>
+    <string name="size">Size</string>
+    <string name="generations">Generations:</string>
+    <string name="about">About Game of Life</string>
+    <string name="load">Load Saved Game</string>
+    <string name="settings">Settings</string>
+    <string name="genpersec">gen/sec</string>
+    <string name="survivalRules">Survival Rules</string>
+    <string name="toroidal_world">Toroidal World (aka Infinite)</string>
+    <string name="next_gen_visible">Next Generation Visible</string>
+    <string name="mark_cells_for_death">Mark cells that will die in the next generation</string>
+    <string name="creation_rules">Creation Rules</string>
+    <string name="title_activity_about_game_of_life">About Game Of Life</string>
+    <string name="doyouevencode">Do you even code, bruh?</string>
+    <string name="aboutthisapp">About this app</string>
+    <string name="title_activity_preferences">Settings</string>
+    <string name="title_activity_saved_state_list">Load Saved Game</string>
+    <string name="title_activity_do_you_code">Open Source!</string>
+    <string name="attribution">Attribution</string>
+    <string name="title_activitiy_about_this_app">About this App</string>
+    <string name="title_activity_attribution">Attributions</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="toroidal_summary">Makes the world infinite (kind of). Cells on the right edge will neighbour with cells on the left. Same for top and bottom edges.</string>
+    <string name="next_gen_summary">Make new cells that will be created in the coming generation visible in current generation.</string>
+    <string name="mark_for_death_summary">Cells that will not make it into the next generation will be marked with a black X.</string>
+    <string name="creation_summary">Number of neighbours an empty spot needs for a new cell to be born there next generation.</string>
+    <string name="survival_summary">Number of neighbours a living cell needs to have in order to survive into the next generation.</string>
+    <string name="save_title">How shalteth I calleth thee patternst?"</string>
+    <string name="save_title_hint">(Pick a save name)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="game_of_life_explanation">The Game of Life is a cellular automation that was created by British
+        mathematician John Conway in 1970. The word \"game\" is used loosely here. It\'s a mathematical model of cellular
+        life. Cells live, reproduce and die according to simple rules.. not unlike humans.\n\n
+Da Rulz:\n
+ - With the original rules, if a cell has 2 or 3 neighbours it can survive into the next generation, otherwise death awaits.\n
+        "   (If a cell has less than 2 neighbours it dies of loneliness, and if it has more than 3 it dies of overpopulation.)\n
+ - If an empty space has exactly 3 neighbours than in the next generation a new baby cell will be born.\n\n
+(Baby cells are exactly like adult cells - I just threw in the word \'baby\' there for fun. This is what counts as fun for me.)\n\n
+That\'s it, 2 simple rules and a world of complexity. It\'s been studied a lot since then and grown quite popular among
+        mathematicians, numberphiles and math nerds such as myself. It\'s also popularly given as an assignment in computer
+        programming classes - which is good news for you cheaty-cheaters out there because the code for this app is open source.
+        (Don\'t cheat! Think of the kittens!)\n\n
+
+Lots of people like to play with the rules to see what happens when you change the number of cells needed to survive,
+        or to create new life. You are free to experiment here all you like - in the settings page there\'s an option
+        to choose the rules and experiment.\n\n
+
+Want to know more?  Check out the <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">wikipedia page</a> on
+        your local interweb.\n\n</string>
+
+    <string name="do_you_code_text">Do you like the app but think it\'s missing that one feature you just wish it had?\n
+    Do you wish you could add a few settings or tweak the sinfully ugly UI and make it purdy?\n
+    Or do you just want to take a look at the central algorithm and see what I done did there?\n\n
+    Do you even code, bruh?\n\n
+
+        It\'s all open source so if you\'re interested in messing around with or improving the source code check out the
+        <a href="https://github.com/heslihop/game-of-life---Android">github page</a>\n\n
+
+        This app is still in the early stages but is always planned to be free and without ads. It\'s my first app and was mostly built
+        just for fun and to learn. I welcome comments and constructive criticism, especially from programmers who have seen
+        (and winced at) the source code.\n\n
+
+    Cheers!\n\n</string>
+
+    <string name="attribution_text">Only one of the background pics used requires attribution. It\'s the microbial handprint.
+    That picture is reproduced here with permission from: Tasha Sturm © @ Cabrillo College.\n
+    \"Bacterial handprint of an 8 year old boy after being outside.  Mainly normal flora and environmental bacteria most of which
+        is not harmful to a health person.\"\n\n
+
+    The other background pictures don\'t require attribution and were taken from pixabay.com and unsplash.com. Both sites are
+        great sources for stock photos provided by their userbase.\n\n
+
+     As this project is opensource, recognition will also be given here to any developers that add to the development of
+        future versions.</string>
+
+    <string name="about_this_app_text">This app was initially created by one person but has since been made open source
+    so everyone can contribute to creating the changes and improvements they want to see. This is first app. A lot of people
+    code The Game of Life when they\'re learning to program and this is my version.\n\n
+
+    If you\'ve never heard of John Conway\'s Game of Life check out the "About Game of Life" in the main menu. To answer
+    questions specifically about this app I\'ve created a FAQ:\n\n
+
+    Q. What do all the buttons do?\n
+    A. They should all be easy to figure out by pressing on them. The only one that is not obvious is the \'redo\' button.
+    That one reloads either the last time the board was randomized, or the last load of a save file - whichever came latest.\n\n
+
+    Q. Why do you let the cells go on top of the UI?! It\'s driving my OCD crazy.\n
+    A. This is actually a metaphor for life. Especially bacterial life. Bacteria go over everything. Life goes over everything.
+    It\'s not easily restricted and bounded. It overflows.\n\n
+
+    Q. Why did you use custom images for the randomize and hide buttons, but left everything else as standard images? It
+    looks disjointed, like you gave up half way through.\n
+    A. To the untrained eye, that\'s exactly what it might look like. And someone watching me program might come to the same
+    conclusion. Actually, randomize and hide-all don\'t have well known symbols so I needed to create my own. I also thought
+    the disjointed look created another metaphor for life. It\'s chaotic.\n\n
+
+    Q. Why isn\'t there any clear instructions as to how the game works? You just throw the player in, and even if they make
+    it to the main menu, there\'s no option for instructions.\n
+    A. Life also has no instructions. We are thrown into the world to figure it out on our own. Since we are creatures that
+    evolved in environments like this over hundreds of millions of years, I expect you come equipped with the skills to
+        figure out my app.\n\n
+
+    Q. In that last answer you mentioned evolution. That\'s highly offensive to those of us who don\'t believe in evolution.
+    How dare you?\n
+    A. Whether you were fabricated over hundreds of millions of years by evolution, or created in an instant by an act of
+        divinity, you should be well equipped to handle my app without instructions. No one needs to be offended today.
+        Not on my watch.\n\n
+
+    Q. Are you just rambling nonsense because you ran out of questions to ask yourself and then answer?\n
+    A. Indubitably.\n\n
+
+    Q. My question wasn\'t answered. What do I do?\n
+    A. Head on over to github (See \'Do you even Code, bruh?\') and add the question to this FAQ, along with the answer.\n\n
+    </string>
+
+    <string-array name="pref_creation_rules_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_creation_rules_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_creation_rules_defaults">
+        <item>3</item>
+    </string-array>
+
+    <string-array name="pref_survival_rules_options">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_survival_rules_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="pref_survival_rules_defaults">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

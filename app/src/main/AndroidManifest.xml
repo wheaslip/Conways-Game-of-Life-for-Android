@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.heslihop.wesley.gameoflife">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.heslihop.wesley.gameoflife.MainMenu" />
+        <activity android:name="com.heslihop.wesley.gameoflife.GameScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.heslihop.wesley.gameoflife.SettingsPreferencesActivity"
+            android:label="@string/title_activity_preferences"/>
+        <activity
+            android:name="com.heslihop.wesley.gameoflife.SavedStateList"
+            android:label="@string/title_activity_saved_state_list"/>
+        <activity
+            android:name="com.heslihop.wesley.gameoflife.DoYouEvenCode"
+            android:label="@string/title_activity_do_you_code"/>
+        <activity
+            android:name="com.heslihop.wesley.gameoflife.AboutGameOfLife"
+            android:label="@string/title_activity_about_game_of_life"/>
+        <activity
+            android:name="com.heslihop.wesley.gameoflife.AboutApp"
+            android:label="@string/title_activitiy_about_this_app"/>
+        <activity
+            android:name="com.heslihop.wesley.gameoflife.Attribution"
+            android:label="@string/title_activity_attribution"/>
+    </application>
+
+</manifest>
